@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Navbar from './component/Navbar';
-import Footer from './component/Footer';
-import HomeContent from './component/Home/HomeContent';
-import HomeProject from './component/Home/HomeProject';
+import HomePage from './component/Home/HomePage';
+import ProjectPage from './component/Project/ProjectPage';
+import { createBrowserRouter,RouterProvider } from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomePage/>,
+  },
+  {
+    path: "/project",
+    element: <ProjectPage/>,
+  },
+]);
+
 
 function App() {
   return (
     <div>
-      <header>
-        <Navbar />
-      </header>
-      <div>
-        <HomeContent />
-      </div>
-      <div className='p-10'>
-        <HomeProject />
-      </div>
-      {/* <Footer /> */}
+      <RouterProvider router={router} />
     </div>
   );
 }
