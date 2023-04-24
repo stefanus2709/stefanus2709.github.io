@@ -11,7 +11,7 @@ const HomePage = () => {
                 <HomeContent/>
             </div>
             <div className='p-10'>
-                <p className="font-sans font-bold text-center text-4xl mb-10">Some of My Works</p>
+                <p className="font-sans font-bold text-center lg:text-5xl md:text-5xl mb-10">Some of My Works</p>
                 <HomeProject/>
             </div>
             <Footer/>

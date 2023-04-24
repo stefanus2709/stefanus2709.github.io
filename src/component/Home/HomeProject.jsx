@@ -7,8 +7,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const HomeProject = () => {
     return (
-        <Carousel className="w-1/3 h-1/4 m-auto" autoPlay={true} infiniteLoop={true} 
-        showIndicators={true} showThumbs={false} showArrows={false} showStatus={false}> 
+        <Carousel className="transition ease-in-out duration-700 w-1/3 h-1/4 m-auto hover:cursor-pointer 
+        hover:scale-105 hover:duration-700 hover:ease-in-out" 
+        autoPlay={true} infiniteLoop={true} showIndicators={true} showThumbs={false} 
+        showArrows={false} showStatus={false}> 
             <div>
                 <img src={iskill} className="rounded-md" />
             </div>
