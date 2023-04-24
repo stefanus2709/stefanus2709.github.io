@@ -5,7 +5,7 @@ const ProjectPage = () => {
     return (
         <div>
             <Navbar/>
-            <h1>Testing project</h1>
+            <h1>Testing project Testing Deploy new changes</h1>
             <Footer/>
         </div>
     )
