@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import myFace from './images/my-face.jpg';
+import myFace from '../images/my-face.jpg';
 
 const HomeContent = () => {
     const [keyDown, setKeyDown] = useState(0)
@@ -25,15 +25,19 @@ const HomeContent = () => {
                 <div className="transition ease-in-out duration-700 chat-bubble w-11/12 p-5 
                 hover:-translate-y-3 hover:translate-x-3 hover:bg-sky-500 hover:duration-700 hover:ease-in-out
                 hover:text-white hover:cursor-pointer">
-                    <p className="font-mono phone:text-lg sm:text-2xl md:text-5xl font-bold">Hello, I'm Stefanus Likardi</p>
-                    <p className="font-mono phone:text-sm sm:text-lg md:text-3xl font-bold">Fresh Graduate Software Engineer</p>
+                    <p className="font-mono phone:text-lg sm:text-2xl md:text-3xl xl:text-6xl font-bold">
+                        Hello, I'm Stefanus Likardi
+                    </p>
+                    <p className="font-mono phone:text-sm sm:text-lg md:text-xl xl:text-4xl font-bold">
+                        Fresh Graduate Software Engineer
+                    </p>
                     <br/>
-                    <p className="font-mono phone:text-[8px] sm:text-xs md:text-base">
+                    <p className="font-mono phone:text-[8px] sm:text-xs md:text-base xl:text-xl">
                         Have almost 2 years of experience working on web development field.<br/>
                         Passionate in computer science and technology field, seeking for opportunity to improve and increase my skill and experience on those field.
                     </p>
                     <br/>
-                    <div className="font-mono phone:text-[8px] sm:text-xs md:text-base text-end">
+                    <div className="font-mono phone:text-[8px] sm:text-xs md:text-base xl:text-xl text-end">
                         Press <kbd id="kbdF" className="kbd kbd-sm">F</kbd> to pay respects.
                         <br/>
                         {keyDown != 0 && `Respected ${keyDown} times.`}

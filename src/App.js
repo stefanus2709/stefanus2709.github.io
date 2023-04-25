@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import HomePage from './component/Home/HomePage';
-import ProjectPage from './component/Project/ProjectPage';
+import HomePage from './components/Home/HomePage';
+import ProjectPage from './components/Experience/ExperiencePage';
 import { createBrowserRouter,RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([

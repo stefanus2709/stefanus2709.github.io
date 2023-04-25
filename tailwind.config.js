@@ -11,7 +11,7 @@ module.exports = {
       'phone': '390px',
       'sm': '590px',
       'md': '790px',
-      'lg': '1024px',
+      'lg': '924px',
       'xl': '1280px',
       '2xl': '1536px',
     },
