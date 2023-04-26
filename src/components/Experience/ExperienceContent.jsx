@@ -9,9 +9,9 @@ const ExperienceContent = () => {
         <div className='p-10'>
             <div className='text-center'>
                 <p className='font-mono phone:text-lg sm:text-2xl md:text-3xl xl:text-6xl font-bold mb-4'>My Experience</p>
-                <p className='font-mono phone:text-[8px] sm:text-xs md:text-base xl:text-xl'>Here are some of my previous project and works i've working before</p>
+                <p className='font-mono phone:text-[12px] sm:text-xs md:text-base xl:text-xl'>Here are some of my previous project and works i've working before</p>
             </div>
-            <div className="divider"></div> 
+            <div className="divider"></div>
             <div className='flex flex-row flex-wrap items-center gap-10'>
                 <div className="transition ease-in-out duration-700 card w-96 bg-base-100 shadow-xl hover:cursor-pointer 
                 hover:scale-105 hover:duration-700 hover:ease-in-out">
@@ -20,10 +20,9 @@ const ExperienceContent = () => {
                         <h2 className="card-title font-mono">PT Makro Alpha Solusindo</h2>
                         <p className='font-mono text-[14px]'>Designed, developed, and maintain cms website to help company handle transactions and products data.</p>
                         <div className="card-actions justify-end">
-                            <Link className="text-inherit">
+                            <Link className="dark:text-gray-400 text-black">
                                 <div className='flex flex-row items-center'>
-                                    Details
-                                    <svg width={'25px'} height={'25px'} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="F-Chevron"> <polyline fill="none" id="Right" points="8.5 5 15.5 12 8.5 19" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg>
+                                    Details {'>'}
                                 </div>
                             </Link>
                         </div>
@@ -36,10 +35,9 @@ const ExperienceContent = () => {
                         <h2 className="card-title font-mono">PT Nutrifood Indonesia</h2>
                         <p className='font-mono text-[14px]'>Working as Application Developer Intern, to help company maintain and developed their internal applications.</p>
                         <div className="card-actions justify-end">
-                            <Link className="text-inherit">
+                            <Link className="dark:text-gray-400 text-black">
                                 <div className='flex flex-row items-center'>
-                                    Details
-                                    <svg width={'25px'} height={'25px'} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="F-Chevron"> <polyline fill="none" id="Right" points="8.5 5 15.5 12 8.5 19" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg>
+                                    Details {'>'}
                                 </div>
                             </Link>
                         </div>
@@ -52,10 +50,9 @@ const ExperienceContent = () => {
                         <h2 className="card-title font-mono">EasyBengkel</h2>
                         <p className='font-mono text-[14px]'>Designed and developed website application to help workshop owner record transaction and maintain product stock.</p>
                         <div className="card-actions justify-end">
-                            <Link className="text-inherit">
+                            <Link className="dark:text-gray-400 text-black">
                                 <div className='flex flex-row items-center'>
-                                    Details
-                                    <svg width={'25px'} height={'25px'} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="F-Chevron"> <polyline fill="none" id="Right" points="8.5 5 15.5 12 8.5 19" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg>
+                                    Details {'>'}
                                 </div>
                             </Link>
                         </div>
@@ -68,10 +65,9 @@ const ExperienceContent = () => {
                         <h2 className="card-title font-mono">ISKILL</h2>
                         <p className='font-mono text-[14px]'>Designed and developed learning website named ISKILL to provide many learning courses, with my team as a campus project.</p>
                         <div className="card-actions justify-end">
-                            <Link className="text-inherit">
+                            <Link className="dark:text-gray-400 text-black">
                                 <div className='flex flex-row items-center'>
-                                    Details
-                                    <svg width={'25px'} height={'25px'} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="F-Chevron"> <polyline fill="none" id="Right" points="8.5 5 15.5 12 8.5 19" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> </g> </g> </g></svg>
+                                    Details {'>'}
                                 </div>
                             </Link>
                         </div>
@@ -79,7 +75,7 @@ const ExperienceContent = () => {
                 </div>
             </div>
         </div>
-        
+
     )
 }
 

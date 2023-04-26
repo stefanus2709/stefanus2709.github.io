@@ -24,7 +24,8 @@ const HomeContent = () => {
                 
                 <div className="transition ease-in-out duration-700 chat-bubble w-11/12 p-5 
                 hover:-translate-y-3 hover:translate-x-3 hover:bg-sky-500 hover:duration-700 hover:ease-in-out
-                hover:text-white hover:cursor-pointer">
+                hover:text-white hover:cursor-pointer dark:bg-neutral dark:text-gray-400 text-black 
+                bg-gray-200">
                     <p className="font-mono phone:text-lg sm:text-2xl md:text-3xl xl:text-6xl font-bold">
                         Hello, I'm Stefanus Likardi
                     </p>
@@ -36,12 +37,12 @@ const HomeContent = () => {
                         Have almost 2 years of experience working on web development field.<br/>
                         Passionate in computer science and technology field, seeking for opportunity to improve and increase my skill and experience on those field.
                     </p>
-                    <br/>
-                    <div className="font-mono phone:text-[8px] sm:text-xs md:text-base xl:text-xl text-end">
+                    {/* <br/> */}
+                    {/* <div className="font-mono phone:text-[8px] sm:text-xs md:text-base xl:text-xl text-end">
                         Press <kbd id="kbdF" className="kbd kbd-sm">F</kbd> to pay respects.
                         <br/>
                         {keyDown != 0 && `Respected ${keyDown} times.`}
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

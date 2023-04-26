@@ -7,7 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const HomeProject = () => {
     return (
-        <div className='p-10'>
+        <div className='p-10 dark:bg-neutral dark:text-gray-400 text-black'>
             <p className="font-sans font-bold text-center phone:text-lg sm:text-2xl md:text-3xl xl:text-6xl mb-10">
                 Some of My Works
             </p>
@@ -16,13 +16,13 @@ const HomeProject = () => {
             autoPlay={true} infiniteLoop={true} showIndicators={true} showThumbs={false} 
             showArrows={false} showStatus={false}> 
                 <div>
-                    <img src={iskill} className="rounded-md" />
+                    <img src={iskill} alt='iskill' className="rounded-md" />
                 </div>
                 <div>
-                    <img src={easybengkel} className="rounded-md" />
+                    <img src={easybengkel} alt='easybengkel' className="rounded-md" />
                 </div>
                 <div>
-                    <img src={cmsapp} className="rounded-md" />
+                    <img src={cmsapp} alt='cmsapp' className="rounded-md" />
                 </div>
             </Carousel>
         </div>

@@ -3,7 +3,6 @@ import Navbar from "../Navbar"
 import ExperienceContent from "./ExperienceContent"
 
 const ProjectPage = (props) => {
-    console.log(props)
     return (
         <div>
             <Navbar/>
