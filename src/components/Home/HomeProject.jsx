@@ -1,6 +1,7 @@
 import React from 'react';
 import iskill from '../images/ISKILL-HD.png';
 import easybengkel from '../images/EasyBengkel.png';
+import cmsapp from '../images/CMS_MAS.png';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -19,6 +20,9 @@ const HomeProject = () => {
                 </div>
                 <div>
                     <img src={easybengkel} className="rounded-md" />
+                </div>
+                <div>
+                    <img src={cmsapp} className="rounded-md" />
                 </div>
             </Carousel>
         </div>

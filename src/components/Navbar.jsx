@@ -11,8 +11,7 @@ const Navbar = () => {
                 </label>
                 <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                     <li><Link to="/" className='visited:bg-neutral active:bg-base-100 rounded-box'>Home</Link></li>
-                    <li><Link to="/project" className='visited:bg-neutral active:bg-base-100 rounded-box'>Project</Link></li>
-                    <li><Link to="/project" className='visited:bg-neutral active:bg-base-100 rounded-box'>Experience</Link></li>
+                    <li><Link to="/experience" className='visited:bg-neutral active:bg-base-100 rounded-box'>Experience</Link></li>
                 </ul>
                 </div>
                 <a className="btn btn-ghost normal-case text-xl">SL</a>
@@ -20,8 +19,7 @@ const Navbar = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li><Link to="/" className='visited:bg-neutral active:bg-base-100 rounded-box'>Home</Link></li>
-                    <li><Link to="/project" className='visited:bg-neutral active:bg-base-100 rounded-box'>Project</Link></li>
-                    <li><Link to="/project" className='visited:bg-neutral active:bg-base-100 rounded-box'>Experience</Link></li>
+                    <li><Link to="/experience" className='visited:bg-neutral active:bg-base-100 rounded-box'>Experience</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">
