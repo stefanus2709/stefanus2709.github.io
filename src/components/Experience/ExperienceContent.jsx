@@ -9,7 +9,7 @@ const ExperienceContent = () => {
         <div className='p-10'>
             <div className='text-center'>
                 <p className='font-mono phone:text-lg sm:text-2xl md:text-3xl xl:text-6xl font-bold mb-4'>My Experience</p>
-                <p className='font-mono phone:text-[12px] sm:text-xs md:text-base xl:text-xl'>Here are some of my previous project and works i've working before</p>
+                <p className='font-mono phone:text-[12px] sm:text-xs md:text-base xl:text-xl'>Here are some of my previous project and works i have done before</p>
             </div>
             <div className="divider"></div>
             <div className='flex flex-row flex-wrap items-center gap-10'>
@@ -33,7 +33,7 @@ const ExperienceContent = () => {
                     <figure><img src={nutrifood} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title font-mono">PT Nutrifood Indonesia</h2>
-                        <p className='font-mono text-[14px]'>Working as Application Developer Intern, to help company maintain and developed their internal applications.</p>
+                        <p className='font-mono text-[14px]'>Working as Application Developer, to help the company maintained and developed their internal applications.</p>
                         <div className="card-actions justify-end">
                             <Link className="dark:text-gray-400 text-black">
                                 <div className='flex flex-row items-center'>

@@ -4,7 +4,7 @@ import HomeContent from "./HomeContent"
 import Footer from "../Footer"
 
 const HomePage = (props) => {
-    console.log(props)
+    // console.log(props)
     return (
         <>
             <Navbar/>
