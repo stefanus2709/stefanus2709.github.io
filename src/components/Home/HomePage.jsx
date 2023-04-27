@@ -4,13 +4,14 @@ import HomeContent from "./HomeContent"
 import Footer from "../Footer"
 
 const HomePage = (props) => {
-    // console.log(props)
     return (
         <>
-            <Navbar/>
-            <HomeContent/>
-            <HomeProject/>
-            <Footer/>
+            <div className={props.darkMode ? 'dark' : ''}>
+                <Navbar darkMode={props.darkMode} toggleDarkMode={props.toggleDarkMode}/>
+                <HomeContent/>
+                <HomeProject/>
+                <Footer/>
+            </div>
         </>
     )
 }

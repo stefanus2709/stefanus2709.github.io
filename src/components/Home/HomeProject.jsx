@@ -7,7 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const HomeProject = () => {
     return (
-        <div className='p-10 dark:text-gray-400 text-black'>
+        <div className='p-10 dark:bg-gray-800 bg-white dark:text-gray-400 text-black'>
             <p className="font-sans font-bold text-center phone:text-lg sm:text-2xl md:text-3xl xl:text-6xl mb-10">
                 Some of My Works
             </p>

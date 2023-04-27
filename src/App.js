@@ -1,38 +1,31 @@
-import React from 'react';
 import './App.css';
 import HomePage from './components/Home/HomePage';
 import ExperiencePage from './components/Experience/ExperiencePage';
 import { createBrowserRouter,RouterProvider } from "react-router-dom";
-import { useState, useEffect } from 'react'
+import React, { useState } from 'react';
 
 function App() {
-  // This holds the information about dark mode/light mode
-  const [mode, setMode] = useState();
-
-  useEffect(() => {
-    window.matchMedia('(prefers-color-scheme: dark)')
-      .addEventListener('change', event => {
-        const colorScheme = event.matches ? "dark" : "light";
-        console.log(colorScheme); // "dark" or "light"
-        setMode(colorScheme);
-      });
-  }, []);
+  const [darkMode, setDarkMode] = useState(true);
+  function toggleDarkMode() {
+      setDarkMode(prevDarkMode => !prevDarkMode)
+  }
 
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <HomePage screenMode={mode}/>,
+      element: <HomePage darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>,
     },
     {
       path: "/experience",
-      element: <ExperiencePage/>,
+      element: <ExperiencePage darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>,
     },
   ]);
 
   return (
-    <div>
+    <>
       <RouterProvider router={router} />
-    </div>
+    </>
+    
   );
 }
 

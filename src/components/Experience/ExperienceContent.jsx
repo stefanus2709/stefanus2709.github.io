@@ -4,18 +4,19 @@ import cmsapp from '../images/CMS_MAS.png';
 import nutrifood from '../images/Nutrifood.png';
 import { Link } from "react-router-dom"
 
-const ExperienceContent = () => {
+const ExperienceContent = (props) => {
+    // console.log(props)
     return (
-        <div className='p-10'>
+        <div className='p-10 dark:bg-gray-800 bg-white dark:text-gray-400 text-black'>
             <div className='text-center'>
                 <p className='font-mono phone:text-lg sm:text-2xl md:text-3xl xl:text-6xl font-bold mb-4'>My Experience</p>
                 <p className='font-mono phone:text-[12px] sm:text-xs md:text-base xl:text-xl'>Here are some of my previous project and works i have done before</p>
             </div>
             <div className="divider"></div>
             <div className='flex flex-row flex-wrap items-center gap-10'>
-                <div className="transition ease-in-out duration-700 card w-96 bg-base-100 shadow-xl hover:cursor-pointer 
+                <div className="transition ease-in-out duration-700 card w-96 dark:bg-base-100 bg-white shadow-xl hover:cursor-pointer 
                 hover:scale-105 hover:duration-700 hover:ease-in-out">
-                    <figure><img src={cmsapp} alt="cms_application" /></figure>
+                    <figure><img src={cmsapp} alt="cms_application"/></figure>
                     <div className="card-body">
                         <h2 className="card-title font-mono">PT Makro Alpha Solusindo</h2>
                         <p className='font-mono text-[14px]'>Designed, developed, and maintain cms website to help company handle transactions and products data.</p>
@@ -28,7 +29,7 @@ const ExperienceContent = () => {
                         </div>
                     </div>
                 </div>
-                <div className="transition ease-in-out duration-700 card w-96 bg-base-100 shadow-xl hover:cursor-pointer 
+                <div className="transition ease-in-out duration-700 card w-96 dark:bg-base-100 bg-white shadow-xl hover:cursor-pointer 
                 hover:scale-105 hover:duration-700 hover:ease-in-out">
                     <figure><img src={nutrifood} alt="Shoes" /></figure>
                     <div className="card-body">
@@ -43,7 +44,7 @@ const ExperienceContent = () => {
                         </div>
                     </div>
                 </div>
-                <div className="transition ease-in-out duration-700 card w-96 bg-base-100 shadow-xl hover:cursor-pointer 
+                <div className="transition ease-in-out duration-700 card w-96 dark:bg-base-100 bg-white shadow-xl hover:cursor-pointer 
                 hover:scale-105 hover:duration-700 hover:ease-in-out">
                     <figure><img src={easybengkel} alt="easybengkel" /></figure>
                     <div className="card-body">
@@ -58,7 +59,7 @@ const ExperienceContent = () => {
                         </div>
                     </div>
                 </div>
-                <div className="transition ease-in-out duration-700 card w-96 bg-base-100 shadow-xl hover:cursor-pointer 
+                <div className="transition ease-in-out duration-700 card w-96 dark:bg-base-100 bg-white shadow-xl hover:cursor-pointer 
                 hover:scale-105 hover:duration-700 hover:ease-in-out">
                     <figure><img src={iskill} alt="iskill" /></figure>
                     <div className="card-body">

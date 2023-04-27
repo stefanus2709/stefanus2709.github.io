@@ -1,23 +1,13 @@
-import React, {useState, useEffect} from 'react';
 import myFace from '../images/my-face.jpg';
 
 const HomeContent = () => {
-    const [keyDown, setKeyDown] = useState(0)
-    useEffect(() => {
-        document.addEventListener('keydown', detectKeyDown, true)
-    }, [])
-    const detectKeyDown = (e) => {
-        if(e.key === "f")
-            setKeyDown((prev) => prev + 1)
-    }
-
     return (
-        <div className="mt-5">
+        <div className="pt-5 dark:bg-gray-800 bg-white">
             <div className="chat chat-start p-5">
                 <div className='mt-auto'>
                     <div className="avatar online">
                         <div className="phone:w-10 md:w-20 rounded-full">
-                            <img src={myFace} />
+                            <img src={myFace} alt='profilePicture'/>
                         </div>
                     </div>
                 </div>
@@ -37,12 +27,6 @@ const HomeContent = () => {
                         Have almost 2 years of experience working on web development field.<br/>
                         Passionate in computer science and technology field, seeking for opportunity to improve and increase my skill and experience on those field.
                     </p>
-                    {/* <br/> */}
-                    {/* <div className="font-mono phone:text-[8px] sm:text-xs md:text-base xl:text-xl text-end">
-                        Press <kbd id="kbdF" className="kbd kbd-sm">F</kbd> to pay respects.
-                        <br/>
-                        {keyDown != 0 && `Respected ${keyDown} times.`}
-                    </div> */}
                 </div>
             </div>
         </div>

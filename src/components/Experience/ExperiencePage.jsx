@@ -4,11 +4,13 @@ import ExperienceContent from "./ExperienceContent"
 
 const ProjectPage = (props) => {
     return (
-        <div>
-            <Navbar/>
-            <ExperienceContent/>
-            <Footer/>
-        </div>
+        <>
+            <div className={props.darkMode ? 'dark' : ''}>
+                <Navbar darkMode={props.darkMode} toggleDarkMode={props.toggleDarkMode}/>
+                <ExperienceContent/>
+                <Footer/>
+            </div>
+        </>
     )
 }
 
