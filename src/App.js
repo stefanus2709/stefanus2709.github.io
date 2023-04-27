@@ -1,6 +1,8 @@
 import './App.css';
 import HomePage from './components/Home/HomePage';
 import ExperiencePage from './components/Experience/ExperiencePage';
+import MakroAlphaSolusindoDetailPage from './components/ExperienceDetail/MakroAlphaSolusindoDetailPage';
+import NutrifoodIndonesiaDetailPage from './components/ExperienceDetail/NutrifoodIndonesiaDetailPage';
 import { createBrowserRouter,RouterProvider } from "react-router-dom";
 import React, { useState } from 'react';
 
@@ -18,6 +20,14 @@ function App() {
     {
       path: "/experience",
       element: <ExperiencePage darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>,
+    },
+    {
+      path: "/experience/makro-alpha-solusindo",
+      element: <MakroAlphaSolusindoDetailPage darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>,
+    },
+    {
+      path: "/experience/nutrifood-indonesia",
+      element: <NutrifoodIndonesiaDetailPage darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>,
     },
   ]);
 

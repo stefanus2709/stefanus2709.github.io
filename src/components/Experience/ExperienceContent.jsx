@@ -14,14 +14,14 @@ const ExperienceContent = (props) => {
             </div>
             <div className="divider"></div>
             <div className='flex flex-row flex-wrap items-center gap-10'>
-                <div className="transition ease-in-out duration-700 card w-96 dark:bg-base-100 bg-white shadow-xl hover:cursor-pointer 
+                <div className="transition ease-in-out duration-700 card w-96 dark:bg-neutral bg-white shadow-xl hover:cursor-pointer 
                 hover:scale-105 hover:duration-700 hover:ease-in-out">
                     <figure><img src={cmsapp} alt="cms_application"/></figure>
                     <div className="card-body">
                         <h2 className="card-title font-mono">PT Makro Alpha Solusindo</h2>
                         <p className='font-mono text-[14px]'>Designed, developed, and maintain cms website to help company handle transactions and products data.</p>
                         <div className="card-actions justify-end">
-                            <Link className="dark:text-gray-400 text-black">
+                            <Link to={'/experience/makro-alpha-solusindo'} className="dark:text-gray-400 text-black">
                                 <div className='flex flex-row items-center'>
                                     Details {'>'}
                                 </div>
@@ -29,14 +29,14 @@ const ExperienceContent = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="transition ease-in-out duration-700 card w-96 dark:bg-base-100 bg-white shadow-xl hover:cursor-pointer 
+                <div className="transition ease-in-out duration-700 card w-96 dark:bg-neutral bg-white shadow-xl hover:cursor-pointer 
                 hover:scale-105 hover:duration-700 hover:ease-in-out">
                     <figure><img src={nutrifood} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title font-mono">PT Nutrifood Indonesia</h2>
                         <p className='font-mono text-[14px]'>Working as Application Developer, to help the company maintained and developed their internal applications.</p>
                         <div className="card-actions justify-end">
-                            <Link className="dark:text-gray-400 text-black">
+                            <Link to={'/experience/nutrifood-indonesia'} className="dark:text-gray-400 text-black">
                                 <div className='flex flex-row items-center'>
                                     Details {'>'}
                                 </div>
@@ -44,7 +44,7 @@ const ExperienceContent = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="transition ease-in-out duration-700 card w-96 dark:bg-base-100 bg-white shadow-xl hover:cursor-pointer 
+                <div className="transition ease-in-out duration-700 card w-96 dark:bg-neutral bg-white shadow-xl hover:cursor-pointer 
                 hover:scale-105 hover:duration-700 hover:ease-in-out">
                     <figure><img src={easybengkel} alt="easybengkel" /></figure>
                     <div className="card-body">
@@ -59,7 +59,7 @@ const ExperienceContent = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="transition ease-in-out duration-700 card w-96 dark:bg-base-100 bg-white shadow-xl hover:cursor-pointer 
+                <div className="transition ease-in-out duration-700 card w-96 dark:bg-neutral bg-white shadow-xl hover:cursor-pointer 
                 hover:scale-105 hover:duration-700 hover:ease-in-out">
                     <figure><img src={iskill} alt="iskill" /></figure>
                     <div className="card-body">

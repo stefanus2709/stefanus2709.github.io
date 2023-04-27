@@ -25,9 +25,10 @@ const Navbar = (props) => {
                 {/* <button onClick={props.toggleDarkMode} >
                     a
                 </button> */}
+                
                 {props.darkMode ?
-                    <input type="checkbox" className="toggle" onChange={props.toggleDarkMode} checked/> :
-                    <input type="checkbox" className="toggle" onChange={props.toggleDarkMode}/>
+                    <input type="checkbox" className="toggle bg-gray-200" onChange={props.toggleDarkMode} checked/> :
+                    <input type="checkbox" className="toggle bg-gray-200" onChange={props.toggleDarkMode}/>
                 }
             </div>
         </div>
