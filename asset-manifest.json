@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.23dfb1b9.css",
-    "main.js": "/static/js/main.64df0ba0.js",
+    "main.css": "/static/css/main.f7f63db4.css",
+    "main.js": "/static/js/main.d875f147.js",
     "static/js/787.f72349af.chunk.js": "/static/js/787.f72349af.chunk.js",
     "static/media/ISKILL-HD.png": "/static/media/ISKILL-HD.23f3afb6a9cefc37464d.png",
-    "static/media/developer1.jpeg": "/static/media/developer1.5b663726a2643a7f89b3.jpeg",
     "static/media/developer2.jpeg": "/static/media/developer2.6aea6dd9d64a99bf323a.jpeg",
     "static/media/developer5.jpeg": "/static/media/developer5.ac65d885402d770727c1.jpeg",
     "static/media/developer3.jpeg": "/static/media/developer3.93045472211bf4605be2.jpeg",
@@ -14,14 +13,17 @@
     "static/media/intern.jpeg": "/static/media/intern.4251ab7e815c9d3052ba.jpeg",
     "static/media/CMS_MAS.png": "/static/media/CMS_MAS.c040e234cb84de4d194d.png",
     "static/media/Nutrifood.png": "/static/media/Nutrifood.c0b7d0c307ec5a72ba82.png",
+    "static/media/cms1.png": "/static/media/cms1.c39b94126888ac8bab4c.png",
+    "static/media/cms2.png": "/static/media/cms2.d26ecc0bd3f964b99bea.png",
+    "static/media/cms3.png": "/static/media/cms3.42e1587593e3bbf28120.png",
     "static/media/my-face.jpg": "/static/media/my-face.12cb071c9c95f934d5c2.jpg",
     "index.html": "/index.html",
-    "main.23dfb1b9.css.map": "/static/css/main.23dfb1b9.css.map",
-    "main.64df0ba0.js.map": "/static/js/main.64df0ba0.js.map",
+    "main.f7f63db4.css.map": "/static/css/main.f7f63db4.css.map",
+    "main.d875f147.js.map": "/static/js/main.d875f147.js.map",
     "787.f72349af.chunk.js.map": "/static/js/787.f72349af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23dfb1b9.css",
-    "static/js/main.64df0ba0.js"
+    "static/css/main.f7f63db4.css",
+    "static/js/main.d875f147.js"
   ]
 }
