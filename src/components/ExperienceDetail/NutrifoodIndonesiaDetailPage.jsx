@@ -24,7 +24,7 @@ const NutrifoodIndonesiaDetailPage = (props) => {
                     <div>
                         <p className='phone:text-[12px] sm:text-xs md:text-base xl:text-xl font-bold'>Highlights</p>
                         <div className="pt-2 m-auto text-center">
-                            <Carousel className="w-1/2 hover:cursor-pointer items-center text-center m-auto" dynamicHeight={true}>
+                            <Carousel className="w-1/2 phone:w-11/12 hover:cursor-pointer items-center text-center m-auto" dynamicHeight={true}>
                                 <div>
                                     <img className="item-center rounded-lg" src={developer2} alt="nutrifoodDeveloper"/>
                                     {/* <p className="legend">Conduct Meeting With Developer Team</p> */}
