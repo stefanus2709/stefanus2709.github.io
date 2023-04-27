@@ -13,9 +13,9 @@ const HomeContent = () => {
                 </div>
                 
                 <div className="transition ease-in-out duration-700 chat-bubble w-11/12 p-5 
-                hover:-translate-y-3 hover:translate-x-3 hover:bg-sky-500 hover:duration-700 hover:ease-in-out
-                hover:text-white hover:cursor-pointer dark:bg-neutral dark:text-gray-400 text-black 
-                bg-gray-200">
+                hover:-translate-y-3 hover:translate-x-3 hover:bg-sky-600 hover:duration-700 hover:ease-in-out
+                hover:text-white hover:cursor-pointer dark:hover:bg-sky-500 dark:hover:text-white 
+                dark:bg-neutral dark:text-gray-400 text-black bg-gray-200">
                     <p className="font-mono phone:text-lg sm:text-2xl md:text-3xl xl:text-6xl font-bold">
                         Hello, I'm Stefanus Likardi
                     </p>

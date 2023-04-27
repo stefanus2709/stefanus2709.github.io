@@ -1,6 +1,5 @@
 import Footer from "../Footer"
 import Navbar from "../Navbar"
-import developer1 from "../images/developer1.jpeg";
 import developer2 from "../images/developer2.jpeg";
 import developer3 from "../images/developer3.jpeg";
 import developer4 from "../images/developer4.jpeg";
@@ -55,12 +54,12 @@ const NutrifoodIndonesiaDetailPage = (props) => {
                     <div className="mb-5">
                         <p className='phone:text-[12px] sm:text-xs md:text-base xl:text-xl font-bold'>Job Description</p>
                         <ul className="list-disc pl-8 italic">
-                            <li>Improve company authentication application, from frontend and backend side based on requirements given.</li>
-                            <li>Implement CI/CD and Docker container for company applications.</li>
-                            <li>Do database migration for multiple company applications, by make changes to the database connections.</li>
-                            <li>Conduct technology research and implement it on company environment.</li>
-                            <li>Implement autorestart service feature on company applications.</li>
-                            <li>Fixing bugs and maintain company applications.</li>
+                            <li>Improve company authentication application, from frontend and backend side based on requirements given</li>
+                            <li>Implement CI/CD and Docker container for company applications</li>
+                            <li>Do database migration for multiple company applications, by make changes to the database connections</li>
+                            <li>Conduct technology research and implement it on company environment</li>
+                            <li>Implement autorestart service feature on company applications</li>
+                            <li>Fixing bugs and maintain company applications</li>
                         </ul>
                     </div>
                     <div>
@@ -69,6 +68,7 @@ const NutrifoodIndonesiaDetailPage = (props) => {
                             <div className="badge badge-success">Ruby On Rails</div>
                             <div className="badge badge-success">Capistrano</div>
                             <div className="badge badge-success">SQL Server</div>
+                            <div className="badge badge-success">Git</div>
                             <div className="badge badge-success">Linux CLI</div>
                             <div className="badge badge-success">Docker</div>
                             <div className="badge badge-success">CI/CD</div>
