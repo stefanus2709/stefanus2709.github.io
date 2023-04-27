@@ -17,7 +17,7 @@ const HomeContent = () => {
                 hover:text-white hover:cursor-pointer dark:hover:bg-sky-500 dark:hover:text-white 
                 dark:bg-neutral dark:text-gray-400 text-black bg-gray-200">
                     <p className="font-mono phone:text-lg sm:text-2xl md:text-3xl xl:text-6xl font-bold">
-                        Hello, I'm Stefanus Likardi
+                        Hello, I'm Stefanus Likardi Test Ganti
                     </p>
                     <p className="font-mono phone:text-sm sm:text-lg md:text-xl xl:text-4xl font-bold">
                         Fresh Graduate Software Engineer
