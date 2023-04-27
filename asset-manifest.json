@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f0299b1c.css",
-    "main.js": "/static/js/main.b9296d55.js",
+    "main.css": "/static/css/main.dcf58da9.css",
+    "main.js": "/static/js/main.67ea3bca.js",
     "static/js/787.f72349af.chunk.js": "/static/js/787.f72349af.chunk.js",
     "static/media/ISKILL-HD.png": "/static/media/ISKILL-HD.23f3afb6a9cefc37464d.png",
     "static/media/EasyBengkel.png": "/static/media/EasyBengkel.7f3ed6eed96362d86d53.png",
@@ -9,12 +9,12 @@
     "static/media/Nutrifood.png": "/static/media/Nutrifood.c0b7d0c307ec5a72ba82.png",
     "static/media/my-face.jpg": "/static/media/my-face.12cb071c9c95f934d5c2.jpg",
     "index.html": "/index.html",
-    "main.f0299b1c.css.map": "/static/css/main.f0299b1c.css.map",
-    "main.b9296d55.js.map": "/static/js/main.b9296d55.js.map",
+    "main.dcf58da9.css.map": "/static/css/main.dcf58da9.css.map",
+    "main.67ea3bca.js.map": "/static/js/main.67ea3bca.js.map",
     "787.f72349af.chunk.js.map": "/static/js/787.f72349af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0299b1c.css",
-    "static/js/main.b9296d55.js"
+    "static/css/main.dcf58da9.css",
+    "static/js/main.67ea3bca.js"
   ]
 }
