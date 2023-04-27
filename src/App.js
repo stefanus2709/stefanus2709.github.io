@@ -3,7 +3,7 @@ import HomePage from './components/Home/HomePage';
 import ExperiencePage from './components/Experience/ExperiencePage';
 import MakroAlphaSolusindoDetailPage from './components/ExperienceDetail/MakroAlphaSolusindoDetailPage';
 import NutrifoodIndonesiaDetailPage from './components/ExperienceDetail/NutrifoodIndonesiaDetailPage';
-import { createBrowserRouter,RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider} from 'react-router-dom';
 import React, { useState } from 'react';
 
 function App() {
@@ -12,9 +12,9 @@ function App() {
       setDarkMode(prevDarkMode => !prevDarkMode)
   }
 
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
-      path: "/",
+      path: "/*",
       element: <HomePage darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>,
     },
     {
