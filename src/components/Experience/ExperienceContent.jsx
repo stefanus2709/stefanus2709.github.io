@@ -78,20 +78,20 @@ const ExperienceContent = (props) => {
                 hover:scale-105 hover:duration-700 hover:ease-in-out">
                     <div className="card-body dark:text-gray-400 text-black">
                         <div className='text-center items-center mb-5'>
-                            <div className="radial-progress mb-5" style={{"--value":80}}>80%</div>
+                            {/* <div className="radial-progress mb-5" style={{"--value":80}}>80%</div> */}
                             {/* <button className="btn btn-square loading"></button> */}
                             <div>
                                 <p className='text-xl italic'>So much to come!</p>
+                                <progress className="progress progress-accent w-56 bg-slate-400"></progress>
                             </div>
-                            
                         </div>
-                        <div className="card-actions justify-end">
+                        {/* <div className="card-actions justify-end">
                             <Link className="dark:text-gray-400 text-black">
                                 <div className='flex flex-row items-center'>
                                     Incoming {'>'}
                                 </div>
                             </Link>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
