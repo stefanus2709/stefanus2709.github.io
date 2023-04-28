@@ -1,11 +1,13 @@
-import Footer from "../Footer"
-import Navbar from "../Navbar"
-import developer2 from "../images/developer2.jpeg";
-import developer3 from "../images/developer3.jpeg";
-import developer4 from "../images/developer4.jpeg";
-import developer5 from "../images/developer5.jpeg";
-import intern from "../images/intern.jpeg";
-import intern2 from "../images/intern2.jpeg";
+import Footer from "../../Footer"
+import Navbar from "../../Navbar"
+// import developer1 from "../../images/developer1.jpeg";
+import developer2 from "../../images/developer2.jpeg";
+import developer3 from "../../images/developer3.jpeg";
+import developer4 from "../../images/developer4.jpeg";
+import developer5 from "../../images/developer5.jpeg";
+import intern from "../../images/intern.jpeg";
+import intern2 from "../../images/intern2.jpeg";
+import certificate from "../../images/sertifikat-magang.png";
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom"
@@ -14,11 +16,11 @@ const NutrifoodIndonesiaDetailPage = (props) => {
     return (
         <>
             <div className={props.darkMode ? 'dark' : ''}>
-                <Navbar darkMode={props.darkMode} toggleDarkMode={props.toggleDarkMode}/>
+                <Navbar darkMode={props.darkMode} toggleDarkMode={props.toggleDarkMode} />
                 <div className='p-10 dark:bg-gray-800 bg-white dark:text-gray-400 text-black'>
                     <div className="text-sm breadcrumbs">
                         <ul>
-                            <li><Link to={'/experience'}>Experience</Link></li> 
+                            <li><Link to={'/experience'}>Experience</Link></li>
                             <li>PT Nutrifood Indonesia</li>
                         </ul>
                     </div>
@@ -31,28 +33,32 @@ const NutrifoodIndonesiaDetailPage = (props) => {
                         <p className='phone:text-[12px] sm:text-xs md:text-base xl:text-xl font-bold'>Highlights</p>
                         <div className="pt-2 m-auto text-center">
                             <Carousel className="w-1/2 phone:w-11/12 hover:cursor-pointer items-center text-center m-auto" dynamicHeight={true} showStatus={false}>
+                                {/* <div>
+                                    <img className="item-center rounded-lg" src={developer1} alt="nutrifoodDeveloper"/> */}
+                                {/* <p className="legend">Conduct Meeting With Developer Team</p> */}
+                                {/* </div> */}
                                 <div>
-                                    <img className="item-center rounded-lg" src={developer2} alt="nutrifoodDeveloper"/>
+                                    <img className="item-center rounded-lg" src={developer2} alt="nutrifoodDeveloper" />
                                     {/* <p className="legend">Conduct Meeting With Developer Team</p> */}
                                 </div>
                                 <div>
-                                    <img className="item-center rounded-lg" src={developer3} alt="nutrifoodDeveloper"/>
+                                    <img className="item-center rounded-lg" src={developer3} alt="nutrifoodDeveloper" />
                                     {/* <p className="legend">Developer Team at Nutrifood</p> */}
                                 </div>
                                 <div>
-                                    <img className="item-center rounded-lg" src={developer4} alt="nutrifoodDeveloper"/>
+                                    <img className="item-center rounded-lg" src={developer4} alt="nutrifoodDeveloper" />
                                     {/* <p className="legend">Developer Team at Nutrifood</p> */}
                                 </div>
                                 <div>
-                                    <img className="item-center rounded-lg" src={intern2} alt="nutrifoodDeveloper"/>
+                                    <img className="item-center rounded-lg" src={intern2} alt="nutrifoodDeveloper" />
                                     {/* <p className="legend">Developer Team at Nutrifood</p> */}
                                 </div>
                                 <div>
-                                    <img className="item-center rounded-lg" src={intern} alt="nutrifoodIntern"/>
+                                    <img className="item-center rounded-lg" src={intern} alt="nutrifoodIntern" />
                                     {/* <p className="legend">Me With Other Intern's</p> */}
                                 </div>
                                 <div>
-                                    <img className="item-center rounded-lg" src={developer5} alt="nutrifoodDeveloper"/>
+                                    <img className="item-center rounded-lg" src={developer5} alt="nutrifoodDeveloper" />
                                     {/* <p className="legend">Developer Team at Nutrifood</p> */}
                                 </div>
                             </Carousel>
@@ -69,7 +75,7 @@ const NutrifoodIndonesiaDetailPage = (props) => {
                             <li>Fixing bugs and maintain company applications</li>
                         </ul>
                     </div>
-                    <div>
+                    <div className="mb-5">
                         <p className='phone:text-[12px] sm:text-xs md:text-base xl:text-xl mb-1 font-bold'>Things Learned</p>
                         <div className="flex flex-row flex-wrap gap-2 italic font-medium">
                             <div className="badge badge-success">Ruby On Rails</div>
@@ -83,8 +89,14 @@ const NutrifoodIndonesiaDetailPage = (props) => {
                             <div className="badge badge-success">Web Development (HTML, CSS, & Javascript)</div>
                         </div>
                     </div>
+                    <div>
+                        <p className='phone:text-[12px] sm:text-xs md:text-base xl:text-xl mb-1 font-bold'>Certificate</p>
+                        <div>
+                            <img src={certificate} alt='nutrifood-internship-certificate' className="mt-2 m-auto items-center" />
+                        </div>
+                    </div>
                 </div>
-                <Footer/>
+                <Footer />
             </div>
         </>
     )

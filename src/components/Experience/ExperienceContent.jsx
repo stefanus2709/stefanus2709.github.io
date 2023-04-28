@@ -64,7 +64,7 @@ const ExperienceContent = (props) => {
                     <figure><img src={iskill} alt="iskill" /></figure>
                     <div className="card-body">
                         <h2 className="card-title font-mono">ISKILL</h2>
-                        <p className='font-mono text-[14px]'>Designed and developed learning website named ISKILL to provide many learning courses, with my team as a campus project.</p>
+                        <p className='font-mono text-[14px]'>Designed and developed learning website to provide many learning courses for students. Make this application with my team as a campus assignment.</p>
                         <div className="card-actions justify-end">
                             <Link to={'/experience/iskill'} className="dark:text-gray-400 text-black">
                                 <div className='flex flex-row items-center'>

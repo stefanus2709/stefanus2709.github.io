@@ -1,12 +1,13 @@
+import React, { useState } from 'react';
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import './App.css';
 import HomePage from './components/Home/HomePage';
 import ExperiencePage from './components/Experience/ExperiencePage';
-import MakroAlphaSolusindoDetailPage from './components/ExperienceDetail/MakroAlphaSolusindoDetailPage';
-import NutrifoodIndonesiaDetailPage from './components/ExperienceDetail/NutrifoodIndonesiaDetailPage';
-import ISkillDetailPage from "./components/ExperienceDetail/ISkillDetailPage";
-import EasyBengkelDetailPage from "./components/ExperienceDetail/EasyBengkelDetailPage";
-import { createHashRouter, RouterProvider } from "react-router-dom";
-import React, { useState } from 'react';
+import MakroAlphaSolusindoDetailPage from './components/Experience/ExperienceDetail/MakroAlphaSolusindoDetailPage';
+import NutrifoodIndonesiaDetailPage from './components/Experience/ExperienceDetail/NutrifoodIndonesiaDetailPage';
+import ISkillDetailPage from "./components/Experience/ExperienceDetail/ISkillDetailPage";
+import EasyBengkelDetailPage from "./components/Experience/ExperienceDetail/EasyBengkelDetailPage";
+import ContactPage from './components/Contact/ContactPage';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -42,6 +43,10 @@ function App() {
     {
       path: "/experience/easybengkel",
       element: <EasyBengkelDetailPage darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>,
+    },
+    {
+      path: "/contact",
+      element: <ContactPage darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>,
     },
   ]);
 

@@ -1,13 +1,13 @@
-import Footer from "../Footer";
-import Navbar from "../Navbar";
-import iskill1 from "../images/iskill1.png";
-import iskill2 from "../images/iskill2.png";
-import iskill3 from "../images/iskill3.png";
-import iskill4 from "../images/iskill4.png";
-import iskill5 from "../images/iskill5.png";
-import iskill6 from "../images/iskill6.png";
-import iskill7 from "../images/iskill7.png";
-import iskill8 from "../images/iskill8.png";
+import Footer from "../../Footer";
+import Navbar from "../../Navbar";
+import iskill1 from "../../images/iskill1.png";
+import iskill2 from "../../images/iskill2.png";
+import iskill3 from "../../images/iskill3.png";
+import iskill4 from "../../images/iskill4.png";
+import iskill5 from "../../images/iskill5.png";
+import iskill6 from "../../images/iskill6.png";
+import iskill7 from "../../images/iskill7.png";
+import iskill8 from "../../images/iskill8.png";
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom"
