@@ -10,7 +10,7 @@ const ExperienceContent = (props) => {
         <div className='p-10 dark:bg-gray-800 bg-white dark:text-gray-400 text-black'>
             <div className='text-center'>
                 <p className='font-mono phone:text-lg sm:text-2xl md:text-3xl xl:text-6xl font-bold mb-4'>My Experience</p>
-                <p className='font-mono phone:text-[12px] sm:text-xs md:text-base xl:text-xl'>Here are some of my past projects and works i have done before</p>
+                <p className='font-mono phone:text-[12px] sm:text-xs md:text-base xl:text-xl'>Here are some of my past projects and works that i have done before</p>
             </div>
             <div className="divider"></div>
             <div className='flex flex-row flex-wrap items-center gap-10'>
@@ -69,6 +69,26 @@ const ExperienceContent = (props) => {
                             <Link to={'/experience/iskill'} className="dark:text-gray-400 text-black">
                                 <div className='flex flex-row items-center'>
                                     Details {'>'}
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="transition ease-in-out duration-700 card w-96 dark:bg-neutral bg-white shadow-xl hover:cursor-pointer 
+                hover:scale-105 hover:duration-700 hover:ease-in-out">
+                    <div className="card-body dark:text-gray-400 text-black">
+                        <div className='text-center items-center mb-5'>
+                            <div className="radial-progress mb-5" style={{"--value":80}}>80%</div>
+                            {/* <button className="btn btn-square loading"></button> */}
+                            <div>
+                                <p className='text-xl italic'>So much to come!</p>
+                            </div>
+                            
+                        </div>
+                        <div className="card-actions justify-end">
+                            <Link className="dark:text-gray-400 text-black">
+                                <div className='flex flex-row items-center'>
+                                    Incoming {'>'}
                                 </div>
                             </Link>
                         </div>

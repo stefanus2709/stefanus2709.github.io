@@ -5,6 +5,7 @@ import cmsapp2 from "../images/cms2.png";
 import cmsapp3 from "../images/cms3.png";
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Link } from "react-router-dom"
 
 const MakroAlphaSolusindoDetailPage = (props) => {
     return (
@@ -12,6 +13,12 @@ const MakroAlphaSolusindoDetailPage = (props) => {
             <div className={props.darkMode ? 'dark' : ''}>
                 <Navbar darkMode={props.darkMode} toggleDarkMode={props.toggleDarkMode}/>
                 <div className='p-10 dark:bg-gray-800 bg-white dark:text-gray-400 text-black'>
+                    <div className="text-sm breadcrumbs">
+                        <ul>
+                            <li><Link to={'/experience'}>Experience</Link></li> 
+                            <li>PT Makro Alpha Solusindo</li>
+                        </ul>
+                    </div>
                     <div className='text-start'>
                         <p className='phone:text-lg sm:text-2xl md:text-3xl xl:text-6xl font-bold mb-4'>PT Makro Alpha Solusindo</p>
                         <p className='phone:text-[12px] sm:text-xs md:text-base xl:text-xl'>Full Stack Developer Freelance (Aug 2022 - Apr 2023)</p>
@@ -20,7 +27,7 @@ const MakroAlphaSolusindoDetailPage = (props) => {
                     <div>
                         <p className='phone:text-[12px] sm:text-xs md:text-base xl:text-xl font-bold'>Highlights</p>
                         <div className="pt-2 m-auto text-center">
-                            <Carousel className="w-1/2 phone:w-11/12 hover:cursor-pointer items-center text-center m-auto" dynamicHeight={true}>
+                            <Carousel className="w-1/2 phone:w-11/12 hover:cursor-pointer items-center text-center m-auto" dynamicHeight={true} showStatus={false}>
                                 <div>
                                     <img className="item-center rounded-lg" src={cmsapp1} alt="nutrifoodDeveloper"/>
                                     {/* <p className="legend">Developer Team at Nutrifood</p> */}

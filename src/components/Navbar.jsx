@@ -13,7 +13,7 @@ const Navbar = (props) => {
                     <li><Link to="/experience" className='visited:bg-neutral active:bg-base-100 rounded-box'>Experience</Link></li>
                 </ul>
                 </div>
-                <Link className="btn btn-ghost normal-case text-xl">SL</Link>
+                <Link to={'/'} className="btn btn-ghost normal-case text-xl">SL</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
