@@ -10,7 +10,7 @@ const ExperienceContent = (props) => {
         <div className='p-10 dark:bg-gray-800 bg-white dark:text-gray-400 text-black'>
             <div className='text-center'>
                 <p className='font-mono phone:text-lg sm:text-2xl md:text-3xl xl:text-6xl font-bold mb-4'>My Experience</p>
-                <p className='font-mono phone:text-[12px] sm:text-xs md:text-base xl:text-xl'>Here are some of my previous project and works i have done before</p>
+                <p className='font-mono phone:text-[12px] sm:text-xs md:text-base xl:text-xl'>Here are some of my past projects and works i have done before</p>
             </div>
             <div className="divider"></div>
             <div className='flex flex-row flex-wrap items-center gap-10'>
@@ -51,7 +51,7 @@ const ExperienceContent = (props) => {
                         <h2 className="card-title font-mono">EasyBengkel</h2>
                         <p className='font-mono text-[14px]'>Designed and developed website application to help workshop owner record transaction and maintain product stock.</p>
                         <div className="card-actions justify-end">
-                            <Link className="dark:text-gray-400 text-black">
+                            <Link to={'/experience/easybengkel'} className="dark:text-gray-400 text-black">
                                 <div className='flex flex-row items-center'>
                                     Details {'>'}
                                 </div>
@@ -66,7 +66,7 @@ const ExperienceContent = (props) => {
                         <h2 className="card-title font-mono">ISKILL</h2>
                         <p className='font-mono text-[14px]'>Designed and developed learning website named ISKILL to provide many learning courses, with my team as a campus project.</p>
                         <div className="card-actions justify-end">
-                            <Link className="dark:text-gray-400 text-black">
+                            <Link to={'/experience/iskill'} className="dark:text-gray-400 text-black">
                                 <div className='flex flex-row items-center'>
                                     Details {'>'}
                                 </div>
