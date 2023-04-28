@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b3d949c.css",
-    "main.js": "/static/js/main.268a6193.js",
+    "main.css": "/static/css/main.f6ce60aa.css",
+    "main.js": "/static/js/main.7c6883e2.js",
     "static/js/787.f72349af.chunk.js": "/static/js/787.f72349af.chunk.js",
     "static/media/iskill8.png": "/static/media/iskill8.3f7c21420a5e13b4a70d.png",
     "static/media/ISKILL-HD.png": "/static/media/ISKILL-HD.23f3afb6a9cefc37464d.png",
     "static/media/iskill5.png": "/static/media/iskill5.c7169a71afeca24b2210.png",
-    "static/media/developer2.jpeg": "/static/media/developer2.6aea6dd9d64a99bf323a.jpeg",
+    "static/media/developer2.jpeg": "/static/media/developer2.4872aa8d2688c06aefda.jpeg",
     "static/media/developer5.jpeg": "/static/media/developer5.ac65d885402d770727c1.jpeg",
     "static/media/iskill2.png": "/static/media/iskill2.8ca803d38be4ad3777f7.png",
     "static/media/iskill1.png": "/static/media/iskill1.63ff4d44a4b54777fdc9.png",
     "static/media/developer3.jpeg": "/static/media/developer3.93045472211bf4605be2.jpeg",
     "static/media/iskill3.png": "/static/media/iskill3.66914cad4d0e183ef6b2.png",
     "static/media/intern2.jpeg": "/static/media/intern2.ca5d419e93e3ec09bd1b.jpeg",
+    "static/media/my-face2.jpeg": "/static/media/my-face2.e324c5a7841511190130.jpeg",
     "static/media/EasyBengkel.png": "/static/media/EasyBengkel.7f3ed6eed96362d86d53.png",
     "static/media/developer4.jpeg": "/static/media/developer4.5ee49a3c4d05dd9df321.jpeg",
     "static/media/intern.jpeg": "/static/media/intern.4251ab7e815c9d3052ba.jpeg",
     "static/media/iskill4.png": "/static/media/iskill4.06fe358891a0aab70dee.png",
     "static/media/CMS_MAS.png": "/static/media/CMS_MAS.c040e234cb84de4d194d.png",
     "static/media/Nutrifood.png": "/static/media/Nutrifood.c0b7d0c307ec5a72ba82.png",
+    "static/media/sertifikat-magang.png": "/static/media/sertifikat-magang.93e66077bf737ebce630.png",
     "static/media/iskill7.png": "/static/media/iskill7.28cdb451719fc3950173.png",
     "static/media/easybengkel-product.png": "/static/media/easybengkel-product.f963a152641225825300.png",
     "static/media/iskill6.png": "/static/media/iskill6.ed9044b4aa959376dd95.png",
@@ -28,12 +30,12 @@
     "static/media/cms3.png": "/static/media/cms3.42e1587593e3bbf28120.png",
     "static/media/my-face.jpg": "/static/media/my-face.12cb071c9c95f934d5c2.jpg",
     "index.html": "/index.html",
-    "main.6b3d949c.css.map": "/static/css/main.6b3d949c.css.map",
-    "main.268a6193.js.map": "/static/js/main.268a6193.js.map",
+    "main.f6ce60aa.css.map": "/static/css/main.f6ce60aa.css.map",
+    "main.7c6883e2.js.map": "/static/js/main.7c6883e2.js.map",
     "787.f72349af.chunk.js.map": "/static/js/787.f72349af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b3d949c.css",
-    "static/js/main.268a6193.js"
+    "static/css/main.f6ce60aa.css",
+    "static/js/main.7c6883e2.js"
   ]
 }
