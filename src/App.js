@@ -5,7 +5,7 @@ import MakroAlphaSolusindoDetailPage from './components/ExperienceDetail/MakroAl
 import NutrifoodIndonesiaDetailPage from './components/ExperienceDetail/NutrifoodIndonesiaDetailPage';
 import ISkillDetailPage from "./components/ExperienceDetail/ISkillDetailPage";
 import EasyBengkelDetailPage from "./components/ExperienceDetail/EasyBengkelDetailPage";
-import { createBrowserRouter,RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import React, { useState } from 'react';
 
 function App() {
@@ -14,7 +14,11 @@ function App() {
       setDarkMode(prevDarkMode => !prevDarkMode)
   }
 
-  const router = createBrowserRouter([
+  const router = createHashRouter([
+    {
+      path: "/*",
+      element: <App />,
+    },
     {
       path: "/",
       element: <HomePage darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>,
